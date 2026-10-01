@@ -1,5 +1,5 @@
 ## Hello! I'm Najla
-
+<p align="center"><img src="computer.svg" width="600" alt="Laptop with a cute cat coding" /></p>
 I'm a university student building my skills in **data analysis, data science, and AI**. I like turning raw data into clear answers, and I'm learning in public on GitHub.
 
 ## 🌱 Currently learning 
