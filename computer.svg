@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="A laptop typing data analysis code in Python, with a cute cat coding on its own tiny laptop">
+  <style>
+    .mono{font-family:"SFMono-Regular",Menlo,Consolas,"Liberation Mono",monospace;font-size:15px}
+    .p{fill:#FF7EAF}.w{fill:#F7E7EF}.m{fill:#C3A1B1}.g{fill:#7EE0B5}.y{fill:#FFD27E}
+    .l{animation:show 12s infinite both}
+    .l3{animation-delay:0s}.l4{animation-delay:1s}.l5{animation-delay:2s}
+    .l6{animation-delay:3s}.l7{animation-delay:4s}.l8{animation-delay:5.2s}
+    @keyframes show{0%{opacity:0}2%{opacity:1}88%{opacity:1}92%{opacity:0}100%{opacity:0}}
+    .cur{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .glow{animation:pulse 3s ease-in-out infinite}
+    @keyframes pulse{50%{opacity:.55}}
+    .eye{transform-box:fill-box;transform-origin:center;animation:wink 4s infinite}
+    @keyframes wink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+    .tail{transform-origin:508px 272px;animation:swish 2.4s ease-in-out infinite}
+    @keyframes swish{50%{transform:rotate(-14deg)}}
+    .heart{animation:float 3.5s ease-in infinite}
+    @keyframes float{0%{transform:translate(0,0);opacity:0}15%{opacity:1}100%{transform:translate(6px,-34px);opacity:0}}
+    .head{transform-origin:480px 236px;animation:tilt 5s ease-in-out infinite}
+    @keyframes tilt{0%,60%,100%{transform:rotate(0)}70%,85%{transform:rotate(-7deg)}}
+    .paw1{animation:tap .5s ease-in-out infinite}
+    .paw2{animation:tap .5s ease-in-out .25s infinite}
+    @keyframes tap{50%{transform:translateY(-3px)}}
+    .code{opacity:0;animation:rise 3s ease-out infinite}
+    .c2{animation-delay:1s}.c3{animation-delay:2s}
+    @keyframes rise{0%{transform:translate(0,0);opacity:0}20%{opacity:1}100%{transform:translate(-6px,-46px);opacity:0}}
+    @media (prefers-reduced-motion:reduce){.l,.cur,.glow,.eye,.tail,.heart,.head,.paw1,.paw2,.code{animation:none;opacity:1}}
+  </style>
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2B1621"/><stop offset="1" stop-color="#1A0F15"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F1D8E3"/><stop offset="1" stop-color="#D9AFC2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- laptop lid -->
+  <rect x="90" y="14" width="460" height="292" rx="16" fill="url(#body)"/>
+  <rect x="104" y="28" width="432" height="264" rx="8" fill="url(#screen)"/>
+  <circle cx="320" cy="21" r="2.5" fill="#B84A7E"/>
+  <!-- window bar -->
+  <circle cx="122" cy="44" r="5" fill="#FF6B8B"/><circle cx="140" cy="44" r="5" fill="#FFD27E"/><circle cx="158" cy="44" r="5" fill="#7EE0B5"/>
+  <text x="320" y="48" text-anchor="middle" class="mono m" font-size="12">~/data-lab</text>
+
+  <!-- terminal lines -->
+  <g class="mono">
+    <text x="122" y="84" class="l l3"><tspan class="p">$</tspan><tspan class="w"> python</tspan></text>
+    <text x="122" y="114" class="l l4"><tspan class="y">&gt;&gt;&gt;</tspan><tspan class="p"> if</tspan><tspan class="w"> life.gives(bugs):</tspan></text>
+    <text x="122" y="138" class="l l5"><tspan class="y">...</tspan><tspan class="w" xml:space="preserve">     debug()</tspan></text>
+    <text x="122" y="162" class="l l6"><tspan class="y">...</tspan><tspan class="p"> else</tspan><tspan class="w">:</tspan></text>
+    <text x="122" y="186" class="l l7"><tspan class="y">...</tspan><tspan class="w" xml:space="preserve">     keep_coding()</tspan></text>
+    <text x="122" y="222" class="l l8"><tspan class="p">♥ </tspan><tspan class="p" font-weight="700">Your future data scientist</tspan><tspan class="p"> ♥</tspan></text>
+  </g>
+  <rect x="122" y="236" width="9" height="16" class="cur" fill="#FF7EAF"/>
+
+
+  <!-- cat -->
+  <g aria-label="cat">
+    <path class="tail" d="M508 272 q34 -4 26 -38" fill="none" stroke="#F7E7EF" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="480" cy="264" rx="33" ry="25" fill="#F7E7EF"/>
+    <ellipse cx="480" cy="270" rx="18" ry="14" fill="#FFFFFF" opacity=".7"/>
+    <g class="head">
+      <polygon points="457,203 461,178 476,194" fill="#F7E7EF"/>
+      <polygon points="503,203 499,178 484,194" fill="#F7E7EF"/>
+      <polygon points="461,198 463,185 471,194" fill="#FF9CC2"/>
+      <polygon points="499,198 497,185 489,194" fill="#FF9CC2"/>
+      <circle cx="480" cy="215" r="26" fill="#F7E7EF"/>
+      <ellipse class="eye" cx="470" cy="213" rx="3.2" ry="4.2" fill="#2B1621"/>
+      <ellipse class="eye" cx="490" cy="213" rx="3.2" ry="4.2" fill="#2B1621"/>
+      <circle cx="471.2" cy="211.5" r="1.1" fill="#FFFFFF"/>
+      <circle cx="491.2" cy="211.5" r="1.1" fill="#FFFFFF"/>
+      <ellipse cx="463" cy="222" rx="4.5" ry="2.6" fill="#FF7EAF" opacity=".6"/>
+      <ellipse cx="497" cy="222" rx="4.5" ry="2.6" fill="#FF7EAF" opacity=".6"/>
+      <path d="M477.5 219.5 h5 l-2.5 3 z" fill="#E2629A"/>
+      <path d="M476 225 q2 3 4 0 q2 3 4 0" fill="none" stroke="#B84A7E" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M452 216 h-10 M452 221 l-9 2 M508 216 h10 M508 221 l9 2" stroke="#C3A1B1" stroke-width="1.1" stroke-linecap="round"/>
+    </g>
+    <!-- the cat's own tiny laptop -->
+    <rect x="450" y="244" width="60" height="38" rx="5" fill="#E2629A"/>
+    <rect x="450" y="244" width="60" height="38" rx="5" fill="none" stroke="#B84A7E" stroke-width="1.5"/>
+    <path d="M480 266 c-2 -3 -7 -1 -5 3 l5 5 l5 -5 c2 -4 -3 -6 -5 -3 z" fill="#FFD6E6"/>
+    <path d="M440 282 H520 L516 289 Q515 291 512 291 H448 Q445 291 444 289 Z" fill="#F1D8E3"/>
+    <ellipse class="paw1" cx="466" cy="283" rx="7.5" ry="4.5" fill="#FFFFFF"/>
+    <ellipse class="paw2" cx="494" cy="283" rx="7.5" ry="4.5" fill="#FFFFFF"/>
+    <g class="mono" font-size="11" font-weight="700">
+      <text class="code c1" x="418" y="268" fill="#7EE0B5">&lt;/&gt;</text>
+      <text class="code c2" x="426" y="268" fill="#FFD27E">{ }</text>
+      <text class="code c3" x="420" y="268" fill="#FF7EAF">01</text>
+    </g>
+    <path class="heart" d="M516 186 c-3 -4 -9 -1 -6 4 l6 6 l6 -6 c3 -5 -3 -8 -6 -4 z" fill="#FF7EAF"/>
+  </g>
+
+  <!-- laptop base -->
+  <path d="M40 312 H600 L584 334 Q580 340 572 340 H68 Q60 340 56 334 Z" fill="url(#body)"/>
+  <rect x="280" y="312" width="80" height="7" rx="3.5" fill="#B84A7E" opacity=".5"/>
+  <ellipse cx="320" cy="350" rx="250" ry="6" fill="#C22D6B" opacity=".18" class="glow"/>
+</svg>
