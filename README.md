@@ -57,7 +57,7 @@ I'm following my own [Data & AI Roadmap](https://datascientist0.github.io/Data-A
 |---|---|
 | [Data & AI Roadmap](https://github.com/DataScientist0/Data-Ai-roadmap) | An interactive 3-month roadmap for students getting into data analysis, data science, and AI. Updated regularly with new topics and resources. [Live page](https://datascientist0.github.io/Data-Ai-roadmap/) |
 | [learn-git-with-pathy](https://github.com/DataScientist0/learn-git-with-pathy) | My notes from learning Git and GitHub basics |
-
+| [E-commerce Sales Dashboard](https://github.com/DataScientist0/ecommerce-sales-dashboard) | An interactive Power BI dashboard analyzing 5,000 online orders: revenue, payment methods, products, and regions (practice dataset). |
 More projects coming soon as I work through my roadmap.
 
 ## 📫 Connect with me
